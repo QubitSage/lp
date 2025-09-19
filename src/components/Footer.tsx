@@ -1,8 +1,6 @@
 import { Shield, Truck, CreditCard, Phone } from "lucide-react";
-
 export const Footer = () => {
-  return (
-    <footer className="bg-foreground text-background py-12">
+  return <footer className="bg-foreground text-background py-12">
       <div className="container mx-auto px-4">
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-8">
           <div className="text-center">
@@ -14,7 +12,7 @@ export const Footer = () => {
           <div className="text-center">
             <Truck className="w-12 h-12 mx-auto mb-4 text-primary" />
             <h3 className="font-semibold text-lg mb-2">Entrega Rápida</h3>
-            <p className="text-sm opacity-80">Frete grátis acima de R$ 150</p>
+            <p className="text-sm opacity-80">Frete grátis</p>
           </div>
           
           <div className="text-center">
@@ -37,11 +35,10 @@ export const Footer = () => {
           </div>
           
           <div className="text-sm opacity-60 space-y-2">
-            <p>© 2024 Modely. Todos os direitos reservados.</p>
+            <p>© 2025 Modely. Todos os direitos reservados.</p>
             <p>CNPJ: XX.XXX.XXX/XXXX-XX | Política de Privacidade | Termos de Uso</p>
           </div>
         </div>
       </div>
-    </footer>
-  );
+    </footer>;
 };
