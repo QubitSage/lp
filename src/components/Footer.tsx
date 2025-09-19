@@ -36,7 +36,7 @@ export const Footer = () => {
           
           <div className="text-sm opacity-60 space-y-2">
             <p>© 2025 Modely. Todos os direitos reservados.</p>
-            <p>CNPJ: XX.XXX.XXX/XXXX-XX | Política de Privacidade | Termos de Uso</p>
+            <p>Política de Privacidade | Termos de Uso</p>
           </div>
         </div>
       </div>

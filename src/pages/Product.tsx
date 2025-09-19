@@ -15,53 +15,55 @@ const Product = () => {
 
   const products = {
     garrafinha: {
-      name: "Garrafinha Premium",
+      name: "Garrafa Térmica com Display LED",
       image: garrafinhaImage,
       price: "R$ 97,90",
       originalPrice: "R$ 149,90",
       checkoutUrl: "https://pay.cakto.com.br/nmcijk4_576192",
       stock: 7,
       features: [
-        "Mantém temperatura por até 12 horas",
-        "Material livre de BPA",
-        "Capacidade de 500ml",
-        "Design ergonômico",
-        "Tampa à prova de vazamentos"
+        "Mantém bebidas quentes ou frias por até 12h",
+        "Visor digital LED mostra a temperatura em tempo real",
+        "Capacidade de 500ml, leve e portátil",
+        "Aço inox 304, livre de BPA",
+        "Tampa à prova de vazamentos com vedação em silicone"
       ],
-      description: "A Garrafinha Premium da Modely é a companheira perfeita para o seu dia a dia. Com tecnologia de isolamento térmico avançada, ela mantém suas bebidas na temperatura ideal por horas. Seja água gelada no verão ou chá quente no inverno, você sempre terá a bebida perfeita."
+      description: "A Garrafa Térmica com Display LED é perfeita para acompanhar sua rotina. Com visor digital em tempo real, você sempre sabe a temperatura da sua bebida. Mantém quente ou frio por até 12 horas, sem vazamentos, ideal para viagens, escritório e dia a dia."
     },
+    
     liquidificador: {
-      name: "Mini Liquidificador",
+      name: "Mini Liquidificador Fresh Juice",
       image: liquidificadorImage,
       price: "R$ 97,90",
       originalPrice: "R$ 159,90",
       checkoutUrl: "https://pay.cakto.com.br/8ej2k3z_576187",
       stock: 5,
       features: [
-        "Motor potente de 300W",
+        "Motor potente e portátil",
         "6 lâminas em aço inoxidável",
-        "Copo de 400ml",
-        "Portátil e recarregável",
-        "Fácil limpeza"
+        "Copo de 400ml integrado",
+        "Recarregável via USB",
+        "Autonomia de até 15 usos por carga"
       ],
-      description: "O Mini Liquidificador Modely revoluciona sua cozinha! Compacto mas poderoso, ele é perfeito para vitaminas, shakes, molhos e muito mais. Seu design portátil permite que você leve para qualquer lugar, e a bateria recarregável garante praticidade total."
+      description: "O Mini Liquidificador Fresh Juice é compacto mas poderoso: tritura frutas, gelo e até prepara shakes, sucos e papinhas em segundos. Portátil e recarregável, é perfeito para levar onde quiser, garantindo praticidade e saúde sempre à mão."
     },
+    
     ralador: {
-      name: "Ralador Multifuncional",
+      name: "Ralador & Triturador 14 em 1",
       image: raladorImage,
       price: "R$ 97,90",
       originalPrice: "R$ 129,90",
       checkoutUrl: "https://pay.cakto.com.br/486dmfh_575004",
       stock: 3,
       features: [
-        "4 tipos de lâminas diferentes",
-        "Base antiderrapante",
-        "Compartimento para armazenar",
-        "Lâminas em aço inoxidável",
-        "Design ergonômico e seguro"
+        "14 funções em 1 produto multifuncional",
+        "8 lâminas intercambiáveis em aço inox 420",
+        "Rala, tritura, fatia e pica diversos alimentos",
+        "Base estável e design ergonômico",
+        "Acompanha caixa para lâminas e escovas de limpeza"
       ],
-      description: "O Ralador Multifuncional Modely é a ferramenta definitiva para sua cozinha. Com 4 tipos de lâminas, você pode ralar, fatiar e cortar diversos alimentos com precisão e segurança. Seu design ergonômico torna o preparo dos alimentos mais fácil e rápido."
-    }
+      description: "O Ralador & Triturador 14 em 1 é a solução completa para a sua cozinha. Com lâminas afiadas em aço inox e design seguro, permite ralar, fatiar, picar e triturar alimentos em segundos, economizando tempo e facilitando o preparo das refeições."
+    }    
   };
 
   const product = products[productId as keyof typeof products];
