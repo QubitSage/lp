@@ -33,7 +33,7 @@ export const Hero = () => {
             </div>
             <div className="flex items-center gap-2 text-primary">
               <Zap className="w-6 h-6" />
-              <span className="font-semibold">Entrega Rápida</span>
+              <span className="font-semibold">Entrega em até 24 horas após a confirmação!</span>
             </div>
             <div className="flex items-center gap-2 text-primary">
               <Shield className="w-6 h-6" />

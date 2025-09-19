@@ -21,7 +21,7 @@ export const ProductsSection = () => {
   };
   const products = [{
     id: "garrafinha",
-    name: "um",
+    name: "Garrafinha Térmica com Display LED",
     image: garrafinhaImage,
     description: "Garrafinha térmica de alta qualidade que mantém a temperatura por horas. Perfeita para levar água gelada ou quente para qualquer lugar.",
     originalPrice: "R$ 149,90",
